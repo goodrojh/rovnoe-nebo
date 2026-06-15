@@ -1,0 +1,5 @@
+# local preview tooling (not needed for the published static site)
+.claude/
+
+# heavy source PNGs — site uses optimized assets/web/*.jpg
+assets/originals/
