@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Натяжные потолки в Москве и МО — «Натяжение» | Цена в договоре, гарантия 15 лет</title>
-<meta name="description" content="Натяжные потолки под ключ от 4000 ₽. Замер сегодня бесплатно, монтаж за один визит, цена фиксируется в договоре — без доплат. Гарантия 15 лет. Скидка 10% до конца недели. Москва и область." />
-<meta name="theme-color" content="#0E1320" />
-<link rel="canonical" href="https://example.github.io/rovnoe-nebo/" />
+<title>Натяжные потолки в Москве и МО — «Натяжение» | От 270 ₽/м², гарантия 15 лет</title>
+<meta name="description" content="Натяжные потолки от 270 ₽/м². Замер сегодня бесплатно, монтаж за 3 часа без грязи. Собственное производство, материалы Германии и Франции, гарантия 15 лет. Рассрочка 0%. Потолок в подарок при покупке освещения. Москва и область." />
+<meta name="theme-color" content="#141110" />
+<link rel="canonical" href="https://goodrojh.github.io/rovnoe-nebo/" />
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Натяжение — натяжные потолки в Москве и МО. Цена в договоре, гарантия 15 лет" />
-<meta property="og:description" content="Замер сегодня бесплатно, монтаж за один визит, без доплат. Скидка 10% до конца недели." />
-<meta property="og:image" content="assets/web/hero-living-evening.jpg" />
+<meta property="og:title" content="Натяжение — натяжные потолки в Москве и МО. От 270 ₽/м², гарантия 15 лет" />
+<meta property="og:description" content="Замер сегодня бесплатно, монтаж за 3 часа. Собственное производство. Рассрочка 0%. Потолок в подарок при покупке освещения." />
+<meta property="og:image" content="assets/works/work-living-lines.jpg" />
 <meta property="og:locale" content="ru_RU" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,22 +26,20 @@
     theme: {
       extend: {
         colors: {
-          ink:    '#0E1320',
-          ink2:   '#1A2030',
-          paper:  '#FAF8F4',
-          sand:   '#F1EBE1',
-          gold:   '#D7A24B',
-          gold2:  '#C68A2E',
-          max:    '#2486FF',
-          max2:   '#1A6FE0',
+          ink:    '#141110',
+          ink2:   '#211C19',
+          paper:  '#FAF7F2',
+          sand:   '#F2ECE3',
+          gold:   '#FF6A1A',
+          gold2:  '#E15400',
         },
         fontFamily: {
           sans:  ['Manrope', 'system-ui', 'sans-serif'],
           serif: ['Prata', 'Georgia', 'serif'],
         },
         boxShadow: {
-          soft:  '0 18px 50px -20px rgba(14,19,32,0.25)',
-          card:  '0 10px 40px -15px rgba(14,19,32,0.18)',
+          soft:  '0 18px 50px -20px rgba(20,17,16,0.30)',
+          card:  '0 10px 40px -15px rgba(20,17,16,0.20)',
         },
       },
     },
@@ -52,13 +50,14 @@
   body { -webkit-font-smoothing: antialiased; }
   .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
   .reveal.in { opacity: 1; transform: none; }
-  .grain { background-image: radial-gradient(rgba(255,255,255,.04) 1px, transparent 1px); background-size: 4px 4px; }
+  .grain { background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px); background-size: 4px 4px; }
   .display { letter-spacing: -0.02em; }
   details > summary { list-style: none; cursor: pointer; }
   details > summary::-webkit-details-marker { display: none; }
   details[open] .faq-icon { transform: rotate(45deg); }
-  /* hide number input spinners */
   input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 </style>
 </head>
 
@@ -67,7 +66,7 @@
 <!-- ================= HEADER ================= -->
 <header id="header" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
   <div class="mx-auto max-w-7xl px-4 sm:px-6">
-    <div id="headerInner" class="mt-3 flex items-center justify-between rounded-2xl bg-ink/85 backdrop-blur-md px-4 sm:px-6 py-3 text-paper shadow-soft transition-all duration-300">
+    <div id="headerInner" class="mt-3 flex items-center justify-between rounded-2xl bg-ink/90 backdrop-blur-md px-4 sm:px-6 py-3 text-paper shadow-soft transition-all duration-300">
       <a href="#top" class="flex items-center gap-2.5">
         <span class="grid place-items-center w-9 h-9 rounded-xl bg-gold text-ink font-extrabold text-lg">Н</span>
         <span class="font-extrabold text-lg tracking-tight">Натяжение</span>
@@ -75,7 +74,7 @@
       <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-paper/80">
         <a href="#benefits" class="hover:text-gold transition">Почему мы</a>
         <a href="#steps" class="hover:text-gold transition">Как работаем</a>
-        <a href="#cases" class="hover:text-gold transition">Работы</a>
+        <a href="#works" class="hover:text-gold transition">Наши работы</a>
         <a href="#reviews" class="hover:text-gold transition">Отзывы</a>
         <a href="#calc" class="hover:text-gold transition">Расчёт цены</a>
         <a href="#faq" class="hover:text-gold transition">Вопросы</a>
@@ -90,13 +89,11 @@
 
 <!-- ================= HERO ================= -->
 <section id="top" class="relative min-h-[100svh] flex items-center overflow-hidden bg-ink text-paper">
-  <!-- background video + fallback image -->
-  <video class="absolute inset-0 w-full h-full object-cover opacity-60" autoplay muted loop playsinline poster="assets/web/hero-living-evening.jpg">
+  <video class="absolute inset-0 w-full h-full object-cover opacity-55" autoplay muted loop playsinline poster="assets/web/hero-living-evening.jpg">
     <source src="assets/hero-video.mp4" type="video/mp4" />
   </video>
-  <img src="assets/web/hero-living-evening.jpg" alt="Натяжной потолок с парящей подсветкой в современной гостиной" class="absolute inset-0 w-full h-full object-cover opacity-0" />
-  <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/40"></div>
-  <div class="absolute inset-0 bg-gradient-to-r from-ink/80 to-transparent"></div>
+  <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/75 to-ink/40"></div>
+  <div class="absolute inset-0 bg-gradient-to-r from-ink/85 to-transparent"></div>
 
   <div class="relative mx-auto max-w-7xl px-5 sm:px-6 w-full pt-28 pb-16">
     <div class="max-w-2xl">
@@ -105,15 +102,15 @@
         Москва и Московская область · замер бесплатно
       </div>
       <h1 class="display font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-[1.05]">
-        Натяжные потолки с ценой, которая <span class="text-gold">не меняется</span> после замера
+        Натяжные потолки в Москве — <span class="text-gold">от 270 ₽/м²</span> с монтажом за 3 часа
       </h1>
       <p class="mt-6 text-lg sm:text-xl text-paper/80 leading-relaxed">
-        Рассчитаем стоимость за 5 минут, замерим сегодня и установим потолок за один визит. Фиксируем цену в договоре — ни рубля доплат. Гарантия 15 лет.
+        Замерим сегодня бесплатно и установим за один визит — без грязи и запаха. Собственное производство, материалы Германии, Франции и Китая. Гарантия 15 лет.
       </p>
 
       <div class="mt-7 inline-flex items-center gap-3 rounded-2xl bg-paper/10 border border-paper/15 px-4 py-3">
-        <span class="text-2xl">🔥</span>
-        <span class="font-semibold">Скидка <span class="text-gold font-extrabold">−10%</span> на весь заказ до конца недели</span>
+        <span class="text-2xl">🎁</span>
+        <span class="font-semibold">Потолок <span class="text-gold font-extrabold">в подарок</span> при покупке освещения · рассрочка 0%</span>
       </div>
 
       <div class="mt-8 flex flex-col sm:flex-row gap-3">
@@ -121,15 +118,15 @@
           Рассчитать стоимость
           <svg class="w-5 h-5 group-hover:translate-x-1 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
         </a>
-        <a href="https://max.ru/u/f9LHodD0cOLkw9AXo5UNy0IK1Yd4JfWt6EZsHB2PzIQgM1oaruTIqxNjBo4" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-max px-7 py-4 text-base font-bold text-white hover:brightness-95 transition">
-          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+        <a href="https://max.ru/u/f9LHodD0cOLkw9AXo5UNy0IK1Yd4JfWt6EZsHB2PzIQgM1oaruTIqxNjBo4" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-ink2 border border-gold/50 px-7 py-4 text-base font-bold text-paper hover:bg-ink transition">
+          <svg class="w-5 h-5 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
           Написать в MAX
         </a>
       </div>
 
       <div class="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-paper/70">
         <span class="inline-flex items-center gap-2">⚡ Выезд замерщика в день обращения</span>
-        <span class="inline-flex items-center gap-2">⭐ 6800+ потолков</span>
+        <span class="inline-flex items-center gap-2 text-gold">★★★★★ 70+ отзывов на Avito</span>
       </div>
     </div>
   </div>
@@ -143,9 +140,9 @@
 <!-- ================= TRUST STRIP ================= -->
 <section class="bg-ink2 text-paper/90 border-t border-paper/10">
   <div class="mx-auto max-w-7xl px-5 sm:px-6 py-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-    <div><div class="text-2xl font-extrabold text-gold">9 лет</div><div class="text-sm text-paper/60">на рынке Москвы и МО</div></div>
-    <div><div class="text-2xl font-extrabold text-gold">6800+</div><div class="text-sm text-paper/60">установленных потолков</div></div>
-    <div><div class="text-2xl font-extrabold text-gold">15 лет</div><div class="text-sm text-paper/60">гарантия в договоре</div></div>
+    <div><div class="text-2xl font-extrabold text-gold">10 лет</div><div class="text-sm text-paper/60">опыта в Москве и МО</div></div>
+    <div><div class="text-2xl font-extrabold text-gold">70+</div><div class="text-sm text-paper/60">отзывов 5★ на Avito</div></div>
+    <div><div class="text-2xl font-extrabold text-gold">15 лет</div><div class="text-sm text-paper/60">гарантия на материал</div></div>
     <div><div class="text-2xl font-extrabold text-gold">0 ₽</div><div class="text-sm text-paper/60">замер с расчётом</div></div>
   </div>
 </section>
@@ -160,19 +157,18 @@
     </div>
 
     <div class="mt-12 grid md:grid-cols-2 gap-5">
-      <!-- card -->
       <div class="reveal rounded-3xl bg-white shadow-card p-6 sm:p-7 flex gap-5">
         <div class="shrink-0 grid place-items-center w-12 h-12 rounded-2xl bg-red-50 text-red-500 text-xl">✕</div>
         <div>
-          <p class="text-ink/50 line-through">«Назвали 30 000, на замере стало 70 000»</p>
-          <p class="mt-2 font-bold text-lg">Цена с замера = цена в договоре. Точка.</p>
+          <p class="text-ink/50 line-through">«Назвали одну цену — на замере стала втрое выше»</p>
+          <p class="mt-2 font-bold text-lg">Цена с замера фиксируется в договоре. Без доплат.</p>
         </div>
       </div>
       <div class="reveal rounded-3xl bg-white shadow-card p-6 sm:p-7 flex gap-5">
         <div class="shrink-0 grid place-items-center w-12 h-12 rounded-2xl bg-red-50 text-red-500 text-xl">✕</div>
         <div>
-          <p class="text-ink/50 line-through">«Боюсь, что испортят свежие обои и намусорят»</p>
-          <p class="mt-2 font-bold text-lg">Чистый монтаж: защищаем мебель, убираем за собой.</p>
+          <p class="text-ink/50 line-through">«Боюсь, что испортят свежий ремонт и намусорят»</p>
+          <p class="mt-2 font-bold text-lg">Защищаем мебель и стены, работаем с пылесосом, убираем за собой.</p>
         </div>
       </div>
       <div class="reveal rounded-3xl bg-white shadow-card p-6 sm:p-7 flex gap-5">
@@ -185,8 +181,8 @@
       <div class="reveal rounded-3xl bg-white shadow-card p-6 sm:p-7 flex gap-5">
         <div class="shrink-0 grid place-items-center w-12 h-12 rounded-2xl bg-red-50 text-red-500 text-xl">✕</div>
         <div>
-          <p class="text-ink/50 line-through">«А вдруг провиснет или пойдёт волной?»</p>
-          <p class="mt-2 font-bold text-lg">Немецкое полотно + гарантия 15 лет на работу и материал.</p>
+          <p class="text-ink/50 line-through">«А вдруг провиснет, пойдёт волной или будет пахнуть?»</p>
+          <p class="mt-2 font-bold text-lg">Своё производство, материалы Германии и Франции, без запаха и складок. Гарантия 15 лет.</p>
         </div>
       </div>
     </div>
@@ -203,15 +199,15 @@
 
     <div class="mt-12 grid grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
       <div class="reveal rounded-3xl bg-ink text-paper p-7 row-span-1 lg:row-span-2 flex flex-col justify-between min-h-[200px] relative overflow-hidden">
-        <div class="absolute -right-8 -top-8 w-40 h-40 rounded-full bg-gold/15 blur-2xl"></div>
-        <div class="text-5xl sm:text-6xl font-extrabold text-gold">0 ₽</div>
-        <div><p class="font-bold text-lg">Выезд и замер с расчётом</p><p class="text-paper/60 text-sm mt-1">Приедем сегодня, посчитаем точную цену на месте.</p></div>
+        <div class="absolute -right-8 -top-8 w-40 h-40 rounded-full bg-gold/20 blur-2xl"></div>
+        <div class="text-5xl sm:text-6xl font-extrabold text-gold">270 ₽</div>
+        <div><p class="font-bold text-lg">Цена за м² «под ключ»</p><p class="text-paper/60 text-sm mt-1">Честная стоимость без скрытых доплат. Замер и расчёт — бесплатно.</p></div>
       </div>
       <div class="reveal rounded-3xl bg-white shadow-card p-6"><div class="text-4xl font-extrabold">3 часа</div><p class="text-ink/60 mt-1 text-sm">средний монтаж комнаты, без грязи</p></div>
-      <div class="reveal rounded-3xl bg-white shadow-card p-6"><div class="text-4xl font-extrabold">15 лет</div><p class="text-ink/60 mt-1 text-sm">гарантия письменно в договоре </p></div>
-      <div class="reveal rounded-3xl bg-white shadow-card p-6"><div class="text-4xl font-extrabold">6800+</div><p class="text-ink/60 mt-1 text-sm">потолков установили с 2017 года</p></div>
-      <div class="reveal rounded-3xl bg-gold text-ink p-6"><div class="text-4xl font-extrabold">0 доплат</div><p class="text-ink/70 mt-1 text-sm">фиксируем смету до старта работ</p></div>
-      <div class="reveal rounded-3xl bg-white shadow-card p-6"><div class="text-4xl font-extrabold">0 запаха</div><p class="text-ink/60 mt-1 text-sm">сертифицированное полотно MSD/Pongs </p></div>
+      <div class="reveal rounded-3xl bg-white shadow-card p-6"><div class="text-4xl font-extrabold">15 лет</div><p class="text-ink/60 mt-1 text-sm">гарантия на материал, сервис бесплатно</p></div>
+      <div class="reveal rounded-3xl bg-white shadow-card p-6"><div class="text-4xl font-extrabold">0%</div><p class="text-ink/60 mt-1 text-sm">рассрочка без банка и переплат</p></div>
+      <div class="reveal rounded-3xl bg-gold text-ink p-6"><div class="text-3xl font-extrabold">Своё производство</div><p class="text-ink/70 mt-1 text-sm">поэтому дешевле, чем у конкурентов</p></div>
+      <div class="reveal rounded-3xl bg-white shadow-card p-6"><div class="text-4xl font-extrabold">0 запаха</div><p class="text-ink/60 mt-1 text-sm">материалы Германии, Франции, Китая</p></div>
     </div>
   </div>
 </section>
@@ -245,7 +241,7 @@
       </div>
       <div class="reveal">
         <div class="rounded-3xl overflow-hidden shadow-soft">
-          <img src="assets/web/process-installer.jpg" alt="Мастер монтирует натяжной потолок в чистой комнате" loading="lazy" class="w-full h-full object-cover" />
+          <img src="assets/works/work-track-spots.jpg" alt="Натяжной потолок с трековым освещением и световыми линиями" loading="lazy" class="w-full h-full object-cover" />
         </div>
       </div>
     </div>
@@ -257,104 +253,146 @@
   <div class="mx-auto max-w-7xl px-5 sm:px-6">
     <div class="max-w-2xl reveal">
       <p class="text-gold font-bold tracking-wide uppercase text-sm">Любые решения</p>
-      <h2 class="display font-extrabold text-3xl sm:text-4xl mt-3">От простых матовых до парящих и звёздного неба</h2>
-      <p class="mt-4 text-paper/70 text-lg">Поможем выбрать под ваш интерьер и бюджет — от 4000 ₽ под ключ.</p>
+      <h2 class="display font-extrabold text-3xl sm:text-4xl mt-3">От матовых до световых линий и звёздного неба</h2>
+      <p class="mt-4 text-paper/70 text-lg">Поможем выбрать под интерьер и бюджет — от 270 ₽/м² под ключ.</p>
     </div>
     <div class="mt-10 flex flex-wrap gap-3">
-      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium hover:border-gold hover:text-gold transition">Матовые</span>
-      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium hover:border-gold hover:text-gold transition">Глянцевые</span>
-      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium hover:border-gold hover:text-gold transition">Сатиновые</span>
-      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium hover:border-gold hover:text-gold transition">Парящие с подсветкой</span>
-      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium hover:border-gold hover:text-gold transition">Многоуровневые</span>
-      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium hover:border-gold hover:text-gold transition">Звёздное небо</span>
-      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium hover:border-gold hover:text-gold transition">Фотопечать</span>
-      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium hover:border-gold hover:text-gold transition">Тканевые</span>
+      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium">Матовые · от 799 ₽</span>
+      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium">Тканевые · от 499 ₽</span>
+      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium">Парящие · от 999 ₽</span>
+      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium">Световые линии · от 499 ₽</span>
+      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium">Многоуровневые · от 799 ₽</span>
+      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium">Цветные · от 270 ₽</span>
+      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium">Фотопечать · от 599 ₽</span>
+      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium">Зеркальные · от 499 ₽</span>
+      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium">Под дерево · от 299 ₽</span>
+      <span class="rounded-full border border-paper/15 px-5 py-2.5 text-sm font-medium">Магнитные треки</span>
     </div>
     <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
       <figure class="reveal rounded-3xl overflow-hidden relative group">
-        <img src="assets/web/hero-living-day.jpg" alt="Глянцевый натяжной потолок в светлой гостиной" loading="lazy" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
-        <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink to-transparent p-5 font-bold">Глянцевый — глубина и свет</figcaption>
+        <img src="assets/works/work-gloss-hall.jpg" alt="Глянцевый зеркальный натяжной потолок в дизайнерском холле" loading="lazy" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
+        <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink to-transparent p-5 font-bold">Глянцевый — глубина и отражение</figcaption>
+      </figure>
+      <figure class="reveal rounded-3xl overflow-hidden relative group">
+        <img src="assets/works/work-living-lines.jpg" alt="Натяжной потолок со световыми линиями в гостиной" loading="lazy" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
+        <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink to-transparent p-5 font-bold">Световые линии — геометрия света</figcaption>
       </figure>
       <figure class="reveal rounded-3xl overflow-hidden relative group">
         <img src="assets/web/ceiling-stars-bedroom.jpg" alt="Натяжной потолок звёздное небо в спальне" loading="lazy" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
         <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink to-transparent p-5 font-bold">Звёздное небо — для спальни</figcaption>
       </figure>
-      <figure class="reveal rounded-3xl overflow-hidden relative group">
-        <img src="assets/web/case-bedroom-twolevel.jpg" alt="Двухуровневый натяжной потолок с подсветкой" loading="lazy" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
-        <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink to-transparent p-5 font-bold">Парящий — с контурной подсветкой</figcaption>
-      </figure>
     </div>
   </div>
 </section>
 
-<!-- ================= CASES ================= -->
-<section id="cases" class="py-20 sm:py-28">
+<!-- ================= WORKS / PORTFOLIO (real photos) ================= -->
+<section id="works" class="py-20 sm:py-28">
   <div class="mx-auto max-w-7xl px-5 sm:px-6">
     <div class="max-w-2xl reveal">
       <p class="text-gold font-bold tracking-wide uppercase text-sm">Наши работы</p>
-      <h2 class="display font-extrabold text-3xl sm:text-4xl mt-3">Результат говорит за нас</h2>
+      <h2 class="display font-extrabold text-3xl sm:text-4xl mt-3">Реальные объекты, а не картинки из каталога</h2>
+      <p class="mt-4 text-ink/60 text-lg">Несколько из сотен потолков, которые мы смонтировали в Москве и области.</p>
     </div>
 
-    <div class="mt-12 grid md:grid-cols-3 gap-6">
-      <article class="reveal rounded-3xl bg-white shadow-card overflow-hidden">
-        <img src="assets/web/case-living-gloss.jpg" alt="Глянцевый потолок с парящей подсветкой в гостиной" loading="lazy" class="w-full h-56 object-cover" />
-        <div class="p-6">
-          <h3 class="font-bold text-lg">Глянец + парящая подсветка</h3>
-          <p class="text-ink/60 text-sm mt-1">Гостиная 22 м² · смонтировали за 4 часа</p>
-          <div class="mt-4 flex items-baseline gap-2"><span class="text-2xl font-extrabold">38 400 ₽</span></div>
-        </div>
-      </article>
-      <article class="reveal rounded-3xl bg-white shadow-card overflow-hidden">
-        <img src="assets/web/case-kitchen-matte.jpg" alt="Матовый натяжной потолок на кухне" loading="lazy" class="w-full h-56 object-cover" />
-        <div class="p-6">
-          <h3 class="font-bold text-lg">Матовый, кухня</h3>
-          <p class="text-ink/60 text-sm mt-1">Кухня 11 м² · монтаж за 2,5 часа</p>
-          <div class="mt-4 flex items-baseline gap-2"><span class="text-2xl font-extrabold">14 200 ₽</span></div>
-        </div>
-      </article>
-      <article class="reveal rounded-3xl bg-white shadow-card overflow-hidden">
-        <img src="assets/web/case-bedroom-twolevel.jpg" alt="Двухуровневый потолок в спальне с подсветкой" loading="lazy" class="w-full h-56 object-cover" />
-        <div class="p-6">
-          <h3 class="font-bold text-lg">Двухуровневый, спальня</h3>
-          <p class="text-ink/60 text-sm mt-1">Спальня 16 м² · монтаж за 5 часов</p>
-          <div class="mt-4 flex items-baseline gap-2"><span class="text-2xl font-extrabold">29 800 ₽</span></div>
-        </div>
-      </article>
+    <!-- masonry gallery -->
+    <div class="mt-12 columns-1 sm:columns-2 lg:columns-3 gap-5 [&>*]:mb-5">
+      <figure class="reveal break-inside-avoid rounded-3xl overflow-hidden shadow-card relative group">
+        <img src="assets/works/work-living-lines.jpg" alt="Натяжной потолок со световыми линиями в светлой гостиной" loading="lazy" class="w-full object-cover group-hover:scale-[1.03] transition duration-500" />
+        <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink/90 to-transparent p-5 text-paper font-semibold">Световые линии · гостиная</figcaption>
+      </figure>
+      <figure class="reveal break-inside-avoid rounded-3xl overflow-hidden shadow-card relative group">
+        <img src="assets/works/work-neon-yellow.jpg" alt="Натяжной потолок с жёлтой контурной подсветкой в прихожей" loading="lazy" class="w-full object-cover group-hover:scale-[1.03] transition duration-500" />
+        <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink/90 to-transparent p-5 text-paper font-semibold">Контурная подсветка · прихожая</figcaption>
+      </figure>
+      <figure class="reveal break-inside-avoid rounded-3xl overflow-hidden shadow-card relative group">
+        <img src="assets/works/work-lightlines-marble.jpg" alt="Световые линии на потолке в ванной с мрамором" loading="lazy" class="w-full object-cover group-hover:scale-[1.03] transition duration-500" />
+        <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink/90 to-transparent p-5 text-paper font-semibold">Световые линии · санузел</figcaption>
+      </figure>
+      <figure class="reveal break-inside-avoid rounded-3xl overflow-hidden shadow-card relative group">
+        <img src="assets/works/work-kitchen-spots.jpg" alt="Матовый натяжной потолок с накладными светильниками на кухне" loading="lazy" class="w-full object-cover group-hover:scale-[1.03] transition duration-500" />
+        <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink/90 to-transparent p-5 text-paper font-semibold">Матовый + споты · кухня</figcaption>
+      </figure>
+      <figure class="reveal break-inside-avoid rounded-3xl overflow-hidden shadow-card relative group">
+        <img src="assets/works/work-bedroom-round.jpg" alt="Натяжной потолок с круглым светильником в спальне" loading="lazy" class="w-full object-cover group-hover:scale-[1.03] transition duration-500" />
+        <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink/90 to-transparent p-5 text-paper font-semibold">Спальня · дизайн-свет</figcaption>
+      </figure>
+      <figure class="reveal break-inside-avoid rounded-3xl overflow-hidden shadow-card relative group">
+        <img src="assets/works/work-wave-multilevel.jpg" alt="Многоуровневый натяжной потолок с волной и подсветкой" loading="lazy" class="w-full object-cover group-hover:scale-[1.03] transition duration-500" />
+        <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink/90 to-transparent p-5 text-paper font-semibold">Многоуровневый · волна</figcaption>
+      </figure>
+      <figure class="reveal break-inside-avoid rounded-3xl overflow-hidden shadow-card relative group">
+        <img src="assets/works/work-gloss-hall.jpg" alt="Глянцевый зеркальный потолок в дизайнерском холле" loading="lazy" class="w-full object-cover group-hover:scale-[1.03] transition duration-500" />
+        <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink/90 to-transparent p-5 text-paper font-semibold">Глянец · холл</figcaption>
+      </figure>
+      <figure class="reveal break-inside-avoid rounded-3xl overflow-hidden shadow-card relative group">
+        <img src="assets/works/work-living-geom.jpg" alt="Световые линии геометрия на потолке в большой гостиной" loading="lazy" class="w-full object-cover group-hover:scale-[1.03] transition duration-500" />
+        <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink/90 to-transparent p-5 text-paper font-semibold">Геометрия света · гостиная</figcaption>
+      </figure>
+      <figure class="reveal break-inside-avoid rounded-3xl overflow-hidden shadow-card relative group">
+        <img src="assets/works/work-bedroom-round.jpg" alt="Натяжной потолок с круглой люстрой в спальне с видом на город" loading="lazy" class="w-full object-cover group-hover:scale-[1.03] transition duration-500 hidden" />
+      </figure>
     </div>
 
-    <!-- video -->
-    <div class="reveal mt-8 rounded-3xl overflow-hidden shadow-soft relative bg-ink">
-      <video class="w-full aspect-video object-cover" autoplay muted loop playsinline poster="assets/web/hero-living-day.jpg">
-        <source src="assets/hero-video.mp4" type="video/mp4" />
-      </video>
-      <div class="absolute top-4 left-4 rounded-full bg-ink/70 text-paper text-xs font-semibold px-3 py-1.5">Как преображается комната</div>
+    <div class="reveal mt-4 text-center">
+      <a href="https://m.vk.com/alexpotolok1" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-2xl border-2 border-ink/15 px-6 py-3.5 font-bold hover:border-gold hover:text-gold transition">
+        Смотреть больше работ во ВКонтакте →
+      </a>
     </div>
   </div>
 </section>
 
-<!-- ================= REVIEWS ================= -->
-<section id="reviews" class="py-20 sm:py-28 bg-sand">
+<!-- ================= REVIEWS (real) ================= -->
+<section id="reviews" class="py-20 sm:py-28 bg-ink text-paper grain">
   <div class="mx-auto max-w-7xl px-5 sm:px-6">
     <div class="max-w-2xl reveal">
-      <p class="text-gold font-bold tracking-wide uppercase text-sm">Отзывы</p>
-      <h2 class="display font-extrabold text-3xl sm:text-4xl mt-3">Что говорят клиенты</h2>
+      <p class="text-gold font-bold tracking-wide uppercase text-sm">Отзывы клиентов</p>
+      <h2 class="display font-extrabold text-3xl sm:text-4xl mt-3">70+ реальных отзывов 5★ на Avito</h2>
+      <p class="mt-4 text-paper/70 text-lg">Балашиха, Фрязино, Ногинск, Долгопрудный и вся область. Вот лишь часть из них.</p>
     </div>
-    <div class="mt-12 grid md:grid-cols-3 gap-6">
-      <blockquote class="reveal rounded-3xl bg-white shadow-card p-7">
-        <div class="text-gold text-lg">★★★★★</div>
-        <p class="mt-4 text-ink/80 leading-relaxed">«Цена на замере и в договоре совпали до рубля. Сделали за полдня, обои не тронули.»</p>
-        <footer class="mt-5 font-bold">Ирина, Мытищи</footer>
+
+    <!-- text review cards -->
+    <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <blockquote class="reveal rounded-3xl bg-ink2 p-7 border border-paper/10">
+        <div class="flex items-center justify-between"><div class="text-gold">★★★★★</div><span class="text-xs text-paper/40">Avito · Сделка состоялась</span></div>
+        <p class="mt-4 text-paper/85 leading-relaxed">«Заказал натяжной потолок, приехал замерщик, озвучил цену, договорились на удобный день и час. Мастер приехал день в день и установил очень быстро и аккуратно.»</p>
+        <footer class="mt-5 font-bold">Генрих <span class="text-paper/40 font-normal">· Фрязино</span></footer>
       </blockquote>
-      <blockquote class="reveal rounded-3xl bg-white shadow-card p-7">
-        <div class="text-gold text-lg">★★★★★</div>
-        <p class="mt-4 text-ink/80 leading-relaxed">«Заказывал в новостройку, приехали в тот же день. Чисто, быстро, без сюрпризов по деньгам.»</p>
-        <footer class="mt-5 font-bold">Алексей, Москва, Бутово</footer>
+      <blockquote class="reveal rounded-3xl bg-ink2 p-7 border border-paper/10">
+        <div class="flex items-center justify-between"><div class="text-gold">★★★★★</div><span class="text-xs text-paper/40">Avito · Сделка состоялась</span></div>
+        <p class="mt-4 text-paper/85 leading-relaxed">«Сделали всё просто идеально, цена ниже, чем в других компаниях, вся работа за 1 день без переносов. Менеджер всегда на связи, все вопросы решались сразу. Оценка 10 из 5.»</p>
+        <footer class="mt-5 font-bold">Георгий Румянцев <span class="text-paper/40 font-normal">· световой дизайн</span></footer>
       </blockquote>
-      <blockquote class="reveal rounded-3xl bg-white shadow-card p-7">
-        <div class="text-gold text-lg">★★★★★</div>
-        <p class="mt-4 text-ink/80 leading-relaxed">«Парящий потолок с подсветкой выглядит дорого, а вышло доступно. Гарантию дали письменно.»</p>
-        <footer class="mt-5 font-bold">Марина, Красногорск</footer>
+      <blockquote class="reveal rounded-3xl bg-ink2 p-7 border border-paper/10">
+        <div class="flex items-center justify-between"><div class="text-gold">★★★★★</div><span class="text-xs text-paper/40">Avito · Сделка состоялась</span></div>
+        <p class="mt-4 text-paper/85 leading-relaxed">«Ребята сделали всё очень качественно и быстро, всё убрали за собой. Сделали за 2 дня — и это суббота с воскресеньем, работали бесшумно.»</p>
+        <footer class="mt-5 font-bold">Олеся</footer>
       </blockquote>
+      <blockquote class="reveal rounded-3xl bg-ink2 p-7 border border-paper/10">
+        <div class="flex items-center justify-between"><div class="text-gold">★★★★★</div><span class="text-xs text-paper/40">Avito · Сделка состоялась</span></div>
+        <p class="mt-4 text-paper/85 leading-relaxed">«От начала до конца всё на высоте: оперативно приняли заказ, быстро приехали, замерили, сделали хорошую скидку и натянули замечательные потолки. Быстро, аккуратно и чисто. Буду рекомендовать знакомым.»</p>
+        <footer class="mt-5 font-bold">Ольга Ершова <span class="text-paper/40 font-normal">· матовые</span></footer>
+      </blockquote>
+      <blockquote class="reveal rounded-3xl bg-ink2 p-7 border border-paper/10">
+        <div class="flex items-center justify-between"><div class="text-gold">★★★★★</div><span class="text-xs text-paper/40">Avito · Сделка состоялась</span></div>
+        <p class="mt-4 text-paper/85 leading-relaxed">«Очень оперативно: заказала — на следующий день приехали и натянули. Работа понравилась. Будем делать в других комнатах — обратимся сюда же.»</p>
+        <footer class="mt-5 font-bold">Аделина Гитинова <span class="text-paper/40 font-normal">· Ногинск</span></footer>
+      </blockquote>
+      <blockquote class="reveal rounded-3xl bg-ink2 p-7 border border-paper/10">
+        <div class="flex items-center justify-between"><div class="text-gold">★★★★★</div><span class="text-xs text-paper/40">Avito · Сделка состоялась</span></div>
+        <p class="mt-4 text-paper/85 leading-relaxed">«Большое спасибо ребятам! Сделали мне на лоджии 5 м² потолок со светильниками по хорошей цене. Всё отлично, оперативно — никакой тягомотины.»</p>
+        <footer class="mt-5 font-bold">Сергей <span class="text-paper/40 font-normal">· Долгопрудный</span></footer>
+      </blockquote>
+    </div>
+
+    <!-- real Avito screenshots strip -->
+    <p class="reveal mt-12 text-sm text-paper/50">Скриншоты отзывов с Avito:</p>
+    <div class="reveal mt-3 flex gap-4 overflow-x-auto no-scrollbar pb-2 snap-x">
+      <img src="assets/reviews/rev-genrih.jpg"  alt="Скриншот отзыва с Avito — Генрих" loading="lazy" class="h-72 rounded-2xl border border-paper/10 snap-start" />
+      <img src="assets/reviews/rev-olesya.jpg"  alt="Скриншот отзыва с Avito — Олеся" loading="lazy" class="h-72 rounded-2xl border border-paper/10 snap-start" />
+      <img src="assets/reviews/rev-georgiy.jpg" alt="Скриншот отзыва с Avito — Георгий" loading="lazy" class="h-72 rounded-2xl border border-paper/10 snap-start" />
+      <img src="assets/reviews/rev-adelina.jpg" alt="Скриншот отзыва с Avito — Аделина" loading="lazy" class="h-72 rounded-2xl border border-paper/10 snap-start" />
+      <img src="assets/reviews/rev-sergey.jpg"  alt="Скриншот отзыва с Avito — Сергей" loading="lazy" class="h-72 rounded-2xl border border-paper/10 snap-start" />
+      <img src="assets/reviews/rev-anna.jpg"    alt="Скриншот отзыва с Avito — Анна" loading="lazy" class="h-72 rounded-2xl border border-paper/10 snap-start" />
     </div>
   </div>
 </section>
@@ -364,7 +402,7 @@
   <div class="mx-auto max-w-7xl px-5 sm:px-6 grid lg:grid-cols-2 gap-12 items-center">
     <div class="reveal order-2 lg:order-1">
       <div class="rounded-3xl overflow-hidden shadow-soft">
-        <img src="assets/web/guarantee-contract.jpg" alt="Договор и ключи от квартиры — гарантия на натяжной потолок" loading="lazy" class="w-full object-cover" />
+        <img src="assets/works/work-living-geom.jpg" alt="Готовый натяжной потолок со световыми линиями в гостиной" loading="lazy" class="w-full object-cover" />
       </div>
     </div>
     <div class="reveal order-1 lg:order-2">
@@ -372,10 +410,10 @@
       <h2 class="display font-extrabold text-3xl sm:text-4xl mt-3">Берём ответственность письменно</h2>
       <ul class="mt-8 space-y-4">
         <li class="flex gap-3"><span class="text-gold font-bold">✓</span><span><b>Договор и чек</b> на каждый заказ</span></li>
-        <li class="flex gap-3"><span class="text-gold font-bold">✓</span><span><b>Гарантия 15 лет</b> на полотно и монтаж</span></li>
-        <li class="flex gap-3"><span class="text-gold font-bold">✓</span><span><b>Фиксированная цена</b> — без доплат</span></li>
-        <li class="flex gap-3"><span class="text-gold font-bold">✓</span><span><b>Не понравится</b> — переделаем бесплатно</span></li>
-        <li class="flex gap-3"><span class="text-gold font-bold">✓</span><span><b>Своя бригада</b>, официально, сертифицированные материалы</span></li>
+        <li class="flex gap-3"><span class="text-gold font-bold">✓</span><span><b>Гарантия 15 лет</b> на материал + бесплатное сервисное обслуживание</span></li>
+        <li class="flex gap-3"><span class="text-gold font-bold">✓</span><span><b>Фиксированная цена</b> — без доплат после замера</span></li>
+        <li class="flex gap-3"><span class="text-gold font-bold">✓</span><span><b>Собственное производство</b> — дешевле, чем у конкурентов</span></li>
+        <li class="flex gap-3"><span class="text-gold font-bold">✓</span><span><b>Рассрочка 0%</b> без банка и переплат</span></li>
       </ul>
     </div>
   </div>
@@ -386,12 +424,11 @@
   <div class="mx-auto max-w-5xl px-5 sm:px-6">
     <div class="text-center max-w-2xl mx-auto reveal">
       <p class="text-gold font-bold tracking-wide uppercase text-sm">Расчёт за минуту</p>
-      <h2 class="display font-extrabold text-3xl sm:text-4xl mt-3">Узнайте точную цену со скидкой 10%</h2>
-      <p class="mt-4 text-paper/70">Ответьте на 4 вопроса — перезвоним за 15 минут и пришлём точный расчёт.</p>
+      <h2 class="display font-extrabold text-3xl sm:text-4xl mt-3">Узнайте цену и заберите подарок</h2>
+      <p class="mt-4 text-paper/70">Ответьте на 4 вопроса — перезвоним за 15 минут и пришлём точный расчёт. При покупке освещения — потолок в подарок.</p>
     </div>
 
     <div class="reveal mt-10 rounded-3xl bg-paper text-ink p-6 sm:p-10 shadow-soft">
-      <!-- progress -->
       <div class="flex items-center gap-2 mb-8">
         <div class="quiz-dot h-1.5 flex-1 rounded-full bg-gold transition-all"></div>
         <div class="quiz-dot h-1.5 flex-1 rounded-full bg-ink/10 transition-all"></div>
@@ -404,17 +441,17 @@
       <div class="quiz-step" data-step="1">
         <h3 class="font-extrabold text-xl sm:text-2xl">Какой потолок хотите?</h3>
         <div class="mt-6 grid sm:grid-cols-2 gap-3">
-          <button class="opt rounded-2xl border-2 border-ink/10 p-4 text-left hover:border-gold transition" data-group="type" data-val="Матовый" data-rate="450">
-            <span class="font-bold">Матовый</span><span class="block text-ink/50 text-sm">классика, без бликов · от 450 ₽/м²</span>
+          <button class="opt rounded-2xl border-2 border-ink/10 p-4 text-left hover:border-gold transition" data-group="type" data-val="Тканевый" data-rate="499">
+            <span class="font-bold">Тканевый</span><span class="block text-ink/50 text-sm">матовая фактура · от 499 ₽/м²</span>
           </button>
-          <button class="opt rounded-2xl border-2 border-ink/10 p-4 text-left hover:border-gold transition" data-group="type" data-val="Сатиновый" data-rate="550">
-            <span class="font-bold">Сатиновый</span><span class="block text-ink/50 text-sm">мягкое сияние · от 550 ₽/м²</span>
+          <button class="opt rounded-2xl border-2 border-ink/10 p-4 text-left hover:border-gold transition" data-group="type" data-val="Матовый / глянцевый" data-rate="799">
+            <span class="font-bold">Матовый / глянцевый</span><span class="block text-ink/50 text-sm">классика и зеркальность · от 799 ₽/м²</span>
           </button>
-          <button class="opt rounded-2xl border-2 border-ink/10 p-4 text-left hover:border-gold transition" data-group="type" data-val="Глянцевый" data-rate="650">
-            <span class="font-bold">Глянцевый</span><span class="block text-ink/50 text-sm">зеркальная глубина · от 650 ₽/м²</span>
+          <button class="opt rounded-2xl border-2 border-ink/10 p-4 text-left hover:border-gold transition" data-group="type" data-val="Парящий / световые линии" data-rate="999">
+            <span class="font-bold">Парящий / световые линии</span><span class="block text-ink/50 text-sm">с подсветкой · от 999 ₽/м²</span>
           </button>
-          <button class="opt rounded-2xl border-2 border-ink/10 p-4 text-left hover:border-gold transition" data-group="type" data-val="Парящий / многоуровневый" data-rate="950">
-            <span class="font-bold">Парящий / многоуровневый</span><span class="block text-ink/50 text-sm">с подсветкой · от 950 ₽/м²</span>
+          <button class="opt rounded-2xl border-2 border-ink/10 p-4 text-left hover:border-gold transition" data-group="type" data-val="Многоуровневый / фотопечать" data-rate="1290">
+            <span class="font-bold">Многоуровневый / фотопечать</span><span class="block text-ink/50 text-sm">сложный дизайн · от 1290 ₽/м²</span>
           </button>
         </div>
       </div>
@@ -439,7 +476,7 @@
       <!-- STEP 3: lights -->
       <div class="quiz-step hidden" data-step="3">
         <h3 class="font-extrabold text-xl sm:text-2xl">Сколько светильников?</h3>
-        <p class="text-ink/50 mt-1">Установка точки — ориентир 350 ₽</p>
+        <p class="text-ink/50 mt-1">При покупке освещения у нас — потолок в подарок.</p>
         <div class="mt-6 grid grid-cols-4 gap-3">
           <button class="opt rounded-2xl border-2 border-ink/10 p-4 font-bold hover:border-gold transition" data-group="lights" data-val="0" data-count="0">0</button>
           <button class="opt rounded-2xl border-2 border-ink/10 p-4 font-bold hover:border-gold transition" data-group="lights" data-val="4" data-count="4">1–4</button>
@@ -461,20 +498,18 @@
       <!-- STEP 5: contact + result -->
       <div class="quiz-step hidden" data-step="5">
         <div class="rounded-2xl bg-ink text-paper p-6 text-center">
-          <p class="text-paper/60 text-sm">Предварительная стоимость со скидкой 10%</p>
+          <p class="text-paper/60 text-sm">Предварительная стоимость потолка</p>
           <div class="mt-1 text-4xl font-extrabold text-gold"><span id="priceOut">—</span> ₽</div>
-          <p id="priceOld" class="text-paper/40 line-through text-sm mt-1"></p>
-          <p class="text-paper/50 text-xs mt-2">Точную цену зафиксируем в договоре на бесплатном замере</p>
+          <p class="text-paper/50 text-xs mt-2">Точную цену зафиксируем в договоре на бесплатном замере. Освещение — отдельно, потолок при его покупке в подарок.</p>
         </div>
         <form id="leadForm" class="mt-6 grid sm:grid-cols-2 gap-3">
           <input required name="name" placeholder="Ваше имя" class="rounded-2xl border-2 border-ink/10 px-4 py-3.5 focus:border-gold outline-none" />
           <input required name="phone" type="tel" placeholder="Телефон" class="rounded-2xl border-2 border-ink/10 px-4 py-3.5 focus:border-gold outline-none" />
-          <button type="submit" class="sm:col-span-2 rounded-2xl bg-gold py-4 font-extrabold text-ink hover:bg-gold2 transition">Получить расчёт и скидку 10%</button>
+          <button type="submit" class="sm:col-span-2 rounded-2xl bg-gold py-4 font-extrabold text-ink hover:bg-gold2 transition">Получить расчёт и подарок</button>
         </form>
-        <p class="text-center text-ink/40 text-xs mt-3">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных. Не спам — перезвоним за 15 минут.</p>
+        <p class="text-center text-ink/40 text-xs mt-3">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных. Перезвоним за 15 минут.</p>
       </div>
 
-      <!-- nav -->
       <div class="mt-8 flex items-center justify-between">
         <button id="quizBack" class="text-ink/50 font-medium hover:text-ink transition invisible">← Назад</button>
         <span id="quizCounter" class="text-ink/40 text-sm">Шаг 1 из 5</span>
@@ -492,28 +527,28 @@
     </div>
     <div class="mt-10 space-y-3">
       <details class="reveal group rounded-2xl bg-white shadow-card p-5">
-        <summary class="flex items-center justify-between font-bold text-lg">За счёт чего цена не меняется после замера?<span class="faq-icon text-gold text-2xl transition shrink-0 ml-4">+</span></summary>
-        <p class="mt-3 text-ink/70">Замерщик считает всё на месте — углы, трубы, обходы, светильники — и фиксирует итог в договоре. Дальше сумма не меняется.</p>
+        <summary class="flex items-center justify-between font-bold text-lg">Как получить потолок в подарок?<span class="faq-icon text-gold text-2xl transition shrink-0 ml-4">+</span></summary>
+        <p class="mt-3 text-ink/70">При заказе освещения у нас (светильники, треки, световые линии) сам натяжной потолок идёт в подарок. Точные условия скажем на замере.</p>
+      </details>
+      <details class="reveal group rounded-2xl bg-white shadow-card p-5">
+        <summary class="flex items-center justify-between font-bold text-lg">За счёт чего цена ниже, чем у других?<span class="faq-icon text-gold text-2xl transition shrink-0 ml-4">+</span></summary>
+        <p class="mt-3 text-ink/70">У нас собственное производство — нет посредников и наценок. Поэтому цена честная, от 270 ₽/м², и фиксируется в договоре.</p>
       </details>
       <details class="reveal group rounded-2xl bg-white shadow-card p-5">
         <summary class="flex items-center justify-between font-bold text-lg">Сколько сохнет и пахнет?<span class="faq-icon text-gold text-2xl transition shrink-0 ml-4">+</span></summary>
-        <p class="mt-3 text-ink/70">Запаха нет — мы используем сертифицированное полотно. Пользоваться комнатой можно сразу после монтажа.</p>
+        <p class="mt-3 text-ink/70">Запаха нет — используем сертифицированные материалы Германии, Франции и Китая. Пользоваться комнатой можно сразу после монтажа.</p>
       </details>
       <details class="reveal group rounded-2xl bg-white shadow-card p-5">
-        <summary class="flex items-center justify-between font-bold text-lg">Делаете в новостройке с «гуляющими» стенами?<span class="faq-icon text-gold text-2xl transition shrink-0 ml-4">+</span></summary>
-        <p class="mt-3 text-ink/70">Да. Технология натяжного потолка это учитывает и подходит для новостроек на любом этапе усадки.</p>
+        <summary class="flex items-center justify-between font-bold text-lg">Какие сроки и не намусорите ли?<span class="faq-icon text-gold text-2xl transition shrink-0 ml-4">+</span></summary>
+        <p class="mt-3 text-ink/70">Замер — в день обращения, монтаж комнаты обычно за 3 часа. Защищаем мебель и стены, работаем с пылесосом и убираем за собой.</p>
       </details>
       <details class="reveal group rounded-2xl bg-white shadow-card p-5">
-        <summary class="flex items-center justify-between font-bold text-lg">Что с гарантией, если что-то случится?<span class="faq-icon text-gold text-2xl transition shrink-0 ml-4">+</span></summary>
-        <p class="mt-3 text-ink/70">Гарантия 15 лет на полотно и монтаж. Если возникнет вопрос — приедем и устраним бесплатно.</p>
+        <summary class="flex items-center justify-between font-bold text-lg">Что с гарантией?<span class="faq-icon text-gold text-2xl transition shrink-0 ml-4">+</span></summary>
+        <p class="mt-3 text-ink/70">Гарантия 15 лет на материал и бесплатное сервисное обслуживание. Работаем по договору с чеком.</p>
       </details>
       <details class="reveal group rounded-2xl bg-white shadow-card p-5">
-        <summary class="flex items-center justify-between font-bold text-lg">Какие сроки?<span class="faq-icon text-gold text-2xl transition shrink-0 ml-4">+</span></summary>
-        <p class="mt-3 text-ink/70">Замер — сегодня, в день обращения. Монтаж обычно за один визит: 2–4 часа на комнату.</p>
-      </details>
-      <details class="reveal group rounded-2xl bg-white shadow-card p-5">
-        <summary class="flex items-center justify-between font-bold text-lg">Как оплатить?<span class="faq-icon text-gold text-2xl transition shrink-0 ml-4">+</span></summary>
-        <p class="mt-3 text-ink/70">Наличные, карта или перевод после приёмки работы. Есть рассрочка 0% .</p>
+        <summary class="flex items-center justify-between font-bold text-lg">Можно в рассрочку?<span class="faq-icon text-gold text-2xl transition shrink-0 ml-4">+</span></summary>
+        <p class="mt-3 text-ink/70">Да, рассрочка 0% без банка и переплат. Оплата наличными, картой или переводом после приёмки.</p>
       </details>
     </div>
   </div>
@@ -522,10 +557,9 @@
 <!-- ================= FINAL CTA ================= -->
 <section class="py-20 sm:py-28 bg-sand">
   <div class="mx-auto max-w-4xl px-5 sm:px-6 text-center reveal">
-    <h2 class="display font-extrabold text-3xl sm:text-4xl">Получите расчёт и скидку 10%</h2>
-    <p class="mt-4 text-ink/60 text-lg">Предложение действует до конца недели</p>
+    <h2 class="display font-extrabold text-3xl sm:text-4xl">Получите расчёт и потолок в подарок</h2>
+    <p class="mt-4 text-ink/60 text-lg">При покупке освещения · предложение ограничено</p>
 
-    <!-- countdown -->
     <div id="countdown" class="mt-7 inline-flex items-center gap-3 sm:gap-4">
       <div class="rounded-2xl bg-ink text-paper px-4 sm:px-5 py-3 min-w-[64px]"><div class="text-2xl sm:text-3xl font-extrabold" data-cd="d">0</div><div class="text-xs text-paper/50">дней</div></div>
       <div class="rounded-2xl bg-ink text-paper px-4 sm:px-5 py-3 min-w-[64px]"><div class="text-2xl sm:text-3xl font-extrabold" data-cd="h">0</div><div class="text-xs text-paper/50">часов</div></div>
@@ -537,8 +571,8 @@
       <input required name="name" placeholder="Ваше имя" class="rounded-2xl border-2 border-ink/10 bg-white px-4 py-3.5 focus:border-gold outline-none" />
       <input required name="phone" type="tel" placeholder="Телефон" class="rounded-2xl border-2 border-ink/10 bg-white px-4 py-3.5 focus:border-gold outline-none" />
       <button type="submit" class="rounded-2xl bg-ink py-4 font-extrabold text-paper hover:bg-ink2 transition">Рассчитать стоимость</button>
-      <a href="https://max.ru/u/f9LHodD0cOLkw9AXo5UNy0IK1Yd4JfWt6EZsHB2PzIQgM1oaruTIqxNjBo4" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-max py-4 font-bold text-white hover:brightness-95 transition">
-        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+      <a href="https://max.ru/u/f9LHodD0cOLkw9AXo5UNy0IK1Yd4JfWt6EZsHB2PzIQgM1oaruTIqxNjBo4" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-ink2 border border-gold/50 py-4 font-bold text-paper hover:bg-ink transition">
+        <svg class="w-5 h-5 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
         Быстрее в MAX
       </a>
     </form>
@@ -554,20 +588,20 @@
           <span class="grid place-items-center w-9 h-9 rounded-xl bg-gold text-ink font-extrabold text-lg">Н</span>
           <span class="font-extrabold text-lg">Натяжение</span>
         </div>
-        <p class="mt-4 text-sm">Натяжные потолки в Москве и Московской области. Цена в договоре, гарантия 15 лет.</p>
+        <p class="mt-4 text-sm">Натяжные потолки в Москве и Московской области. Собственное производство, гарантия 15 лет, рассрочка 0%.</p>
       </div>
       <div>
         <p class="text-paper font-bold mb-3">Контакты</p>
         <a href="tel:+79998988143" class="block hover:text-gold transition">+7 999 898-81-43</a>
         <a href="https://max.ru/u/f9LHodD0cOLkw9AXo5UNy0IK1Yd4JfWt6EZsHB2PzIQgM1oaruTIqxNjBo4" target="_blank" rel="noopener" class="block hover:text-gold transition mt-1">MAX</a>
-        <a href="https://t.me/+79998988143" target="_blank" rel="noopener" class="block hover:text-gold transition mt-1">Telegram</a>
+        <a href="https://m.vk.com/alexpotolok1" target="_blank" rel="noopener" class="block hover:text-gold transition mt-1">ВКонтакте</a>
       </div>
       <div>
         <p class="text-paper font-bold mb-3">Разделы</p>
         <a href="#benefits" class="block hover:text-gold transition">Почему мы</a>
-        <a href="#cases" class="block hover:text-gold transition mt-1">Наши работы</a>
+        <a href="#works" class="block hover:text-gold transition mt-1">Наши работы</a>
+        <a href="#reviews" class="block hover:text-gold transition mt-1">Отзывы</a>
         <a href="#calc" class="block hover:text-gold transition mt-1">Расчёт цены</a>
-        <a href="#faq" class="block hover:text-gold transition mt-1">Вопросы</a>
       </div>
       <div>
         <p class="text-paper font-bold mb-3">Режим работы</p>
@@ -586,7 +620,7 @@
 <!-- ================= MOBILE STICKY CTA ================= -->
 <div class="lg:hidden fixed bottom-0 inset-x-0 z-40 p-3 bg-paper/90 backdrop-blur border-t border-ink/10 flex gap-2">
   <a href="#calc" class="flex-1 rounded-2xl bg-ink py-3.5 text-center font-bold text-paper">Рассчитать цену</a>
-  <a href="https://max.ru/u/f9LHodD0cOLkw9AXo5UNy0IK1Yd4JfWt6EZsHB2PzIQgM1oaruTIqxNjBo4" target="_blank" rel="noopener" class="grid place-items-center w-14 rounded-2xl bg-max text-white">
+  <a href="https://max.ru/u/f9LHodD0cOLkw9AXo5UNy0IK1Yd4JfWt6EZsHB2PzIQgM1oaruTIqxNjBo4" target="_blank" rel="noopener" class="grid place-items-center w-14 rounded-2xl bg-gold text-ink">
     <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
   </a>
 </div>
@@ -596,11 +630,11 @@
   <div class="relative max-w-md w-full rounded-3xl bg-paper p-8 text-center shadow-soft">
     <button id="exitClose" class="absolute top-4 right-4 text-ink/40 hover:text-ink text-2xl leading-none">&times;</button>
     <div class="text-4xl">🎁</div>
-    <h3 class="display font-extrabold text-2xl mt-3">Уходите? Заберите −10%</h3>
-    <p class="mt-3 text-ink/60">Оставьте телефон — перезвоним за 15 минут, бесплатно замерим и зафиксируем цену со скидкой.</p>
+    <h3 class="display font-extrabold text-2xl mt-3">Уходите? Заберите потолок в подарок</h3>
+    <p class="mt-3 text-ink/60">Оставьте телефон — перезвоним за 15 минут, бесплатно замерим и зафиксируем цену. При покупке освещения потолок в подарок.</p>
     <form id="leadForm3" class="mt-6 grid gap-3">
       <input required name="phone" type="tel" placeholder="Ваш телефон" class="rounded-2xl border-2 border-ink/10 px-4 py-3.5 focus:border-gold outline-none text-center" />
-      <button type="submit" class="rounded-2xl bg-gold py-4 font-extrabold text-ink hover:bg-gold2 transition">Получить скидку 10%</button>
+      <button type="submit" class="rounded-2xl bg-gold py-4 font-extrabold text-ink hover:bg-gold2 transition">Забрать подарок</button>
     </form>
     <a href="https://max.ru/u/f9LHodD0cOLkw9AXo5UNy0IK1Yd4JfWt6EZsHB2PzIQgM1oaruTIqxNjBo4" target="_blank" rel="noopener" class="mt-3 inline-block text-sm text-ink/50 hover:text-ink">или написать в MAX →</a>
   </div>
@@ -614,12 +648,6 @@
 
 <script>
 /* ---------- Yandex.Metrika placeholder (вставьте реальный ID) ---------- */
-/*
-(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
-ym(XXXXXXXX,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true});
-*/
 function track(goal){ if(window.ym) ym(window.__ymId,'reachGoal',goal); console.log('goal:', goal); }
 
 /* ---------- Header shrink ---------- */
@@ -638,8 +666,8 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 /* ---------- Countdown to end of week (Sunday 23:59:59) ---------- */
 function endOfWeek(){
   const now = new Date();
-  const day = now.getDay(); // 0 Sun .. 6 Sat
-  const daysLeft = (7 - day) % 7; // until next Sunday; if Sunday -> 0
+  const day = now.getDay();
+  const daysLeft = (7 - day) % 7;
   const end = new Date(now);
   end.setDate(now.getDate() + daysLeft);
   end.setHours(23,59,59,999);
@@ -700,17 +728,14 @@ document.querySelectorAll('.area-preset').forEach(b => b.addEventListener('click
 }));
 
 function computePrice(){
-  const base = quiz.area * (quiz.rate || 450);
-  const lights = quiz.lights * 350;
-  let total = base + lights;
-  total = Math.max(total, 4000); // минимальный заказ
-  const discounted = Math.round(total * 0.9 / 100) * 100;
-  document.getElementById('priceOut').textContent = discounted.toLocaleString('ru-RU');
-  document.getElementById('priceOld').textContent = total.toLocaleString('ru-RU') + ' ₽ без скидки';
+  const base = quiz.area * (quiz.rate || 499);
+  let total = Math.max(base, 4000); // минимальный заказ
+  total = Math.round(total / 100) * 100;
+  document.getElementById('priceOut').textContent = total.toLocaleString('ru-RU');
 }
 showStep(1);
 
-/* ---------- Lead forms ---------- */
+/* ---------- Lead forms -> email (FormSubmit) ---------- */
 const LEAD_ENDPOINT = 'https://formsubmit.co/ajax/Halubets-1904@mail.ru';
 function handleLead(form, goal){
   form.addEventListener('submit', async (e) => {
@@ -758,9 +783,7 @@ function openPopup(){ if (exitShown) return; exitShown = true; popup.classList.r
 function closePopup(){ popup.classList.add('hidden'); popup.classList.remove('flex'); }
 document.getElementById('exitClose').addEventListener('click', closePopup);
 popup.addEventListener('click', (e) => { if (e.target === popup) closePopup(); });
-// desktop: mouse leaves viewport top
 document.addEventListener('mouseout', (e) => { if (e.clientY <= 0 && !e.relatedTarget) openPopup(); });
-// mobile fallback: after 25s or fast scroll-up near top
 setTimeout(() => { if (innerWidth < 1024) openPopup(); }, 25000);
 </script>
 
